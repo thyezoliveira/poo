@@ -6,10 +6,6 @@ public class Caixa {
     private Double saldo = 0.0;
     Scanner teclado = new Scanner(System.in);
     
-    private void mostrar(){
-        System.out.println("Seu dado agora é de: " + receberSaldo());
-    }
-
     public void startMenu(){
         System.out.println("==MENU==========================");
         System.out.println("Tecle uma opção e em seguida tecle Enter.");
@@ -43,8 +39,11 @@ public class Caixa {
                 break;
             default:
                 break;
-
         }
+    }
+    
+    private void mostrar(){
+        System.out.println("Seu saldo agora é de: " + receberSaldo());
     }
 
     private void novaOperacao(){
@@ -65,7 +64,7 @@ public class Caixa {
     private Double receberSaldo(){
         return saldo;
     }
-
+    
     private void depositar(Double deposito){
         this.saldo = this.saldo + deposito;
         this.mostrar();
