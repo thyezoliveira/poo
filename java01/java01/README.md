@@ -1,18 +1,14 @@
-## Getting Started
+# Primeiro exercício Java
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## Objetivos do exercício: 
+- Capturar o input do usuário e usar o valor.
+- Entender um pouco a sintaxe básica do Java.
 
-## Folder Structure
+## Executar
+Para executar, basta executar a classe **App**.
 
-The workspace contains two folders by default, where:
+## O que aprendi?
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+- Java precisa de uma função principal para iniciar o programa. Esta função é a **main** 
+- a palavra reservada **void** vem sempre na frente de funções que não retornam valores.
+- a palavra reservada **static** quer dizer que todos os objetos que forem criados a partir desta classe, terá este comportamento (método).
