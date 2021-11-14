@@ -1,10 +1,3 @@
-public class ProgramaPrincipal {//Ao envés de TestarCarro eu defini o nome da minha classe principal de ProgramaPrincipal (Inglês: MainProgram)
-    public static void main(String args[]) { //Temos uma função principal que é executada quando o programa se inicia...
-        FabricarCarro fabricaEletrica = new FabricarCarro("eletrico", "preto"); //É possível deixar o programa principal bem clean e usar outras classes para
-        FabricarCarro fabricaCombustao = new FabricarCarro(null, "metálico"); //os procedimentos gerais do programa, o código fica mais legível.
-    } //...E termina aqui!
-}
-
 class CarroPadrao { //Esta é a classe PAI
     private Byte quantidadeDeRodas = 4; //Os atributos são public para que possam ser acessado por outras classes
     public String tipoDeMotor = ""; //Se fosse private, outras classes nao poderiam acessar os atributos do objeto
@@ -33,25 +26,5 @@ class CarroPadrao { //Esta é a classe PAI
     
     public Byte getRodas(){
         return this.quantidadeDeRodas;
-    }
-}
-
-class CarroEletrico extends CarroPadrao { //Esta classe estende a classe CarroPadrao o que chamamos de herança é a capacidade de uma classe herdar
-    CarroEletrico(String cor){ // atributos e métodos da classe pai, que neste caso é a CarroPadrao
-        super(cor); //Super é usado em uma classe para herdar os parametros passados pela classe pai
-        this.tipoDeMotor = "Elétrico";//Este é um exemplo de acesso e redefinição do atributo tipoDeMotor da classe pai dizendo que este carro é "Elétrico"
-        this.cor = cor;             //Aqui também
-    }
-}
-
-class FabricarCarro {
-    FabricarCarro(String tipo, String cor){
-        if(tipo == "Elétrico" || tipo == "Eletrico" || tipo == "eletrico" || tipo == "elétrico"){
-            CarroEletrico carro = new CarroEletrico(cor);
-            System.out.println("Um carro " + carro.getTipoDeMotor() + " de cor " + carro.getCor() + " foi fabricado.");
-        } else if(tipo == null){
-            CarroPadrao carro = new CarroPadrao(cor);
-            System.out.println("Um carro " + carro.getTipoDeMotor() + " de cor " + carro.getCor() + " foi fabricado.");
-        }
     }
 }

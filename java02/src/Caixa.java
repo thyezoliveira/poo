@@ -29,6 +29,7 @@ public class Caixa {
             case 2:
                 System.out.println("============");
                 System.out.println("Area de saldo");
+                System.out.println("============");
                 System.out.println("Conta: " + this.id);
                 mostrar();
                 this.novaOperacao();

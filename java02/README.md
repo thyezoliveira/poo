@@ -1,7 +1,9 @@
-# Projetos de treinamento
+# Caixa eletrônico
+## Projeto de estudo
 
- 1. Caixa eletrônico
-    Um programa de serviços de caixa eletrônico. Com controles simples de depósito, ver saldo e sair.
+Caixa eletrônico, um programa de serviços de caixa eletrônico. Com controles simples de depósito, ver saldo e sair.
+    
+
 
 ## Objetivos do exercício
 
