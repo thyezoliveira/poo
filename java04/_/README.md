@@ -1,18 +1,24 @@
-## Getting Started
+# Resolvendo questoes de POO
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Questões de POO da AS 3
 
-## Folder Structure
+## Objetivo do exercício
 
-The workspace contains two folders by default, where:
+- Realizar o cálculo proposto e ver funcionar para tirar as próprias conclusões.
+- Resolver questões que foram elaboradas de forma errada e escrever alternativas.
+- Aplicar tudo o que foi aprendido até então.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Tecnologias e ferramentas
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+- VsCode
+- Java
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## Evecutar
 
-## Dependency Management
+Para executar, basta executar a classe **App** .
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## O que aprendi?
+
+- Que o erro de construção do código pode causar erros na execução do programa.
+- Um erro pode não ser somente um quebra brusca no programa, ele também pode ser um cálculo errado com retorno.
+- Um caractere no lugar errado pode causar uma falha na execução do programa.

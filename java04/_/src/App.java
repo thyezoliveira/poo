@@ -10,6 +10,6 @@ public class App {
         System.out.println(tab1.retTabuada2(5)); //Versão modificada
 
         //Questão 4
-        
+        System.out.println(tab1.retTabuada3(5)); //Versão da questão 4
     }
 }
