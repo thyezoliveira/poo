@@ -1,0 +1,34 @@
+import { Passageiro, Carro } from './Carro';
+
+const carro:Carro = new Carro("Fiat", "Uno");
+const jaciara: Passageiro = {nome: "Jaciara", genero: "Feminino"};
+const thyez: Passageiro = {nome: "Thyez", genero: "Maculino"};
+
+console.log(carro.getInfo());
+carro.setNovoPassageiro(thyez);
+carro.setNovoPassageiro(jaciara);
+carro.acelera();
+console.log(carro.getPainelDoCarro());
+carro.acelera();
+console.log(carro.getPainelDoCarro());
+carro.acelera();
+console.log(carro.getPainelDoCarro());
+carro.acelera();
+console.log(carro.getPainelDoCarro());
+carro.acelera();
+console.log(carro.getPainelDoCarro());
+carro.acelera();
+console.log(carro.getPainelDoCarro());
+carro.acelera();
+console.log(carro.getPainelDoCarro());
+carro.acelera();
+console.log(carro.getPainelDoCarro());
+carro.acelera();
+console.log(carro.getPainelDoCarro());
+carro.acelera();
+console.log(carro.getPainelDoCarro());
+carro.acelera();
+console.log(carro.getPainelDoCarro());
+carro.acelera();
+carro.parar();
+console.log(carro.getInfo());
